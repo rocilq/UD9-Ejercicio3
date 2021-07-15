@@ -12,6 +12,11 @@ public class Libro {
 	public Libro(String ISBN, String titulo, String autor, int nPaginas) {
 		// TODO Auto-generated constructor stub
 		//this(ISBN, titulo, autor, nPaginas);
+		this.ISBN = ISBN;
+		this.titulo = titulo;
+		this.autor = autor;
+		this.nPaginas = nPaginas;
+		
 	}
 
 	public String getISBN() {
@@ -48,7 +53,7 @@ public class Libro {
 
 	@Override
 	public String toString() {
-		return "El libro con ISBN " + ISBN + " creado por el autor " + autor + "tiene " + nPaginas + " páginas. \n";
+		return "El libro con ISBN " + ISBN + " creado por el autor " + autor + " tiene " + nPaginas + " páginas. \n";
 	}
 
 }
