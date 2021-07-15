@@ -13,8 +13,8 @@ public class Ex3App {
 	
 	public static void main(String[] args) {
 		
-		Libro libro1 = new Libro(1234,"Libro 1","Autor 1",24);
-		Libro libro2 = new Libro(4321,"Libro 2","Autor 2",30);
+		Libro libro1 = new Libro("978-3-16-148410-0","Libro 1","Autor 1",24);
+		Libro libro2 = new Libro("878-4-29-958460-3","Libro 2","Autor 2",30);
 		
 		System.out.println(libro1.toString());
 		System.out.println(libro2.toString());
