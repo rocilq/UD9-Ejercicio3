@@ -1,23 +1,23 @@
 
 public class Libro {
 
-	protected int isbn;
+	protected String isbn;
 	protected String titulo;
 	protected String autor;
 	protected int numero_paginas;
 	
-	public Libro(int isbn, String titulo, String autor, int numero_paginas) {
+	public Libro(String isbn, String titulo, String autor, int numero_paginas) {
 		this.isbn = isbn;
 		this.titulo = titulo;
 		this.autor = autor;
 		this.numero_paginas = numero_paginas;
 	}
 
-	public int getIsbn() {
+	public String getIsbn() {
 		return isbn;
 	}
 
-	public void setIsbn(int isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 
